@@ -1,0 +1,22 @@
+{
+    "name": "whitelabeled/impact-api-client",
+    "description": "Impact API client (to import actions)",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Whitelabeled\\ImpactApiClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Whitelabeled",
+            "email": "info@whitelabeled.nl"
+        }
+    ],
+    "require": {
+        "php": ">= 7.4",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^7.9"
+    }
+}
